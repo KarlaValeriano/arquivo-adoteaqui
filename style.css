@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(209,214,200);
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: tomato;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    width: 60%;
+    height: 70px;
+    background-color: black;
+    color: yellow;
+    display: flex;
+    align-items: center;
+}
+nav {
+    width: 40%;
+    height: 70px;
+    background-color: yellow;
+    
+}
+.navegacao {
+    width: 100%;
+    height: 70px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+a:hover{
+    color:pink;
+    
+     
+}
+h1:hover {
+    font-size: 35px;
+}
+
+.animais{ 
+    display: inline-block;
+    justify-content: flex-start;
+
+}
+
+.animais li{ 
+    list-style: none;
+    width: 25%;
+    display: inline-block;
+    padding: 10px;
+}
+
+.animais img{
+    width: 102%;
+    display: inline-block;
+    margin-left: 25px;
+    padding-left: 25px;
+    padding: 25px;
+
+}
+.animais li:hover img{
+    width: 104%;
+
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    padding-right: -50px;
+    margin-right: -45px;
+    border-collapse: collapse;
+}
+
+
+
+
+
+   
+    
+
+    
+
+
+
+
+ 
+
+
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14%;
+    
+
+}
+footer p {
+    color: yellow;
+}
+
+
+
+@media(max-width: 800px) {
+
+    nav {
+        display: flex;
+        flex-direction:column;
+        align-items: flex-start;
+    }
+    div {
+        width: 100px;
+    }
+    .adote {
+        display: none;
+    }
+    .animais {
+        display: flex;
+        flex-direction: column;
+    }
+    .animais li{
+        width: 90%;
+
+    }
+}
+
+    
+   
+   
